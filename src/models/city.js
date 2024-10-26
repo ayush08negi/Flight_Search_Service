@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
   
     static associate(models) {
       // define association here like 1:n, n:1, n:m 
+      // test git
 
     this.hasMany(models.Airport,{
       foreignKey: 'cityID'
